@@ -20,17 +20,17 @@
       <main class="mdl-layout__content">
       </main>
       <div id="car">
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label model">
-          <input class="mdl-textfield__input" type="text" id="model">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input model" type="text" id="model">
           <label class="mdl-textfield__label" for="model">Car model</label>
         </div>
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label price-by-day">
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="price-by-day">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input price-by-day" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="price-by-day">
           <label class="mdl-textfield__label" for="price-by-day">Price by day</label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label price-by-km">
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="price-by-km">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input price-by-km" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="price-by-km">
           <label class="mdl-textfield__label" for="price-by-km">Price by km</label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
@@ -38,13 +38,13 @@
       <div id="rental">
         <input class="begin" type="date" placeholder="Rental begin date"/>
         <input class="end" type="date" placeholder="Rental end date"/>
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label distance">
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="distance">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input distance" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="distance">
           <label class="mdl-textfield__label" for="distance">Distance in km</label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
-        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect option" for="option">
-          <input type="checkbox" id="option" class="mdl-checkbox__input">
+        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="option">
+          <input type="checkbox" id="option" class="mdl-checkbox__input option">
           <span class="mdl-checkbox__label">Deductible option</span>
         </label>
       </div>
