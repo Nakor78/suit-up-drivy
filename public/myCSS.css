@@ -1,0 +1,20 @@
+h1
+{
+	color:green;
+}
+p
+{
+	color:teal;
+}
+body
+{
+	color:maroon;
+}
+.demo-layout-transparent
+{
+	background: url('http://cvincent61.free.fr/fond/fond-site.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header, .demo-layout-transparent .mdl-layout__drawer-button
+{
+	color: white;
+}
